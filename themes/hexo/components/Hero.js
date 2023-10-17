@@ -27,8 +27,8 @@ const Hero = props => {
       changeType(
         new Typed('#typed', {
           strings: BLOG.GREETING_WORDS.split(','),
-          typeSpeed: 200,
-          backSpeed: 100,
+          typeSpeed: 500,
+          backSpeed: 300,
           backDelay: 400,
           showCursor: true,
           smartBackspace: true
